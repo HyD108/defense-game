@@ -15,7 +15,7 @@ D:/unity/defense-game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51759
+49912
 Successfully changed project path to: D:/unity/defense-game
 D:/unity/defense-game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/unity/defense-game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6332] Host "[IP] 192.168.0.178 [Port] 0 [Flags] 2 [Guid] 1490300281 [EditorId] 1490300281 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-74D8TM3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8968] Host "[IP] 192.168.0.178 [Port] 0 [Flags] 2 [Guid] 2308807605 [EditorId] 2308807605 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-74D8TM3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6332] Host "[IP] 192.168.0.178 [Port] 0 [Flags] 2 [Guid] 1490300281 [EditorId] 1490300281 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-74D8TM3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8968] Host "[IP] 192.168.0.178 [Port] 0 [Flags] 2 [Guid] 2308807605 [EditorId] 2308807605 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-74D8TM3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 17.71 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 13.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path D:/unity/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'D:/unity/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/unity/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008556 seconds.
-- Loaded All Assemblies, in  0.470 seconds
+Registered in 0.006285 seconds.
+- Loaded All Assemblies, in  0.453 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.337 seconds
-Domain Reload Profiling: 807ms
-	BeginReloadAssembly (139ms)
+- Finished resetting the current domain, in  0.287 seconds
+Domain Reload Profiling: 740ms
+	BeginReloadAssembly (140ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (200ms)
-		LoadAssemblies (139ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (140ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (194ms)
-				TypeCache.ScanAssembly (167ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (175ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (338ms)
+	FinalizeReload (287ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (261ms)
+		SetupLoadedEditorAssemblies (221ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (175ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 807ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.828 seconds
-Refreshing native plugins compatible for Editor in 4.97 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.649 seconds
+Refreshing native plugins compatible for Editor in 4.14 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,314 +126,120 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.054 seconds
-Domain Reload Profiling: 1883ms
-	BeginReloadAssembly (219ms)
+- Finished resetting the current domain, in  0.833 seconds
+Domain Reload Profiling: 1481ms
+	BeginReloadAssembly (154ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (492ms)
-		LoadAssemblies (401ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (413ms)
+		LoadAssemblies (321ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (220ms)
-			TypeCache.Refresh (185ms)
-				TypeCache.ScanAssembly (165ms)
-			ScanForSourceGeneratedMonoScriptInfo (27ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (141ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (1055ms)
+	FinalizeReload (833ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (840ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (670ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 3.97 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (61.4 KB). Loaded Objects now: 4495.
-Memory consumption went from 143.3 MB to 143.2 MB.
-Total: 5.356900 ms (FindLiveObjects: 0.403400 ms CreateObjectMapping: 0.169400 ms MarkObjects: 4.473600 ms  DeleteObjects: 0.308300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Demo.cs: 0b7a92f05528653df5e52544de74f590 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.332 seconds
-Refreshing native plugins compatible for Editor in 6.18 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.480 seconds
-Domain Reload Profiling: 3811ms
-	BeginReloadAssembly (457ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (36ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (148ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (756ms)
-		LoadAssemblies (904ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (41ms)
-			TypeCache.Refresh (21ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (2480ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (848ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (683ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 8.37 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4022 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 4500.
-Memory consumption went from 142.5 MB to 142.5 MB.
-Total: 8.750200 ms (FindLiveObjects: 0.832300 ms CreateObjectMapping: 0.507300 ms MarkObjects: 7.297600 ms  DeleteObjects: 0.111400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Demo.cs: 0b7a92f05528653df5e52544de74f590 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.550 seconds
-Refreshing native plugins compatible for Editor in 4.18 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.139 seconds
-Domain Reload Profiling: 2688ms
-	BeginReloadAssembly (193ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (271ms)
-		LoadAssemblies (357ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (2140ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (813ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (97ms)
-			ProcessInitializeOnLoadAttributes (647ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 5.15 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4022 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 4504.
-Memory consumption went from 144.4 MB to 144.4 MB.
-Total: 4.286000 ms (FindLiveObjects: 0.380800 ms CreateObjectMapping: 0.199300 ms MarkObjects: 3.629800 ms  DeleteObjects: 0.074200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Demo.cs: 0b7a92f05528653df5e52544de74f590 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.540 seconds
-Refreshing native plugins compatible for Editor in 3.91 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.437 seconds
-Domain Reload Profiling: 1977ms
-	BeginReloadAssembly (188ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (253ms)
-		LoadAssemblies (340ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1438ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (748ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (606ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 5.29 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4022 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 4508.
-Memory consumption went from 146.4 MB to 146.3 MB.
-Total: 3.643400 ms (FindLiveObjects: 0.359200 ms CreateObjectMapping: 0.162800 ms MarkObjects: 3.006100 ms  DeleteObjects: 0.113200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Demo.cs: 0b7a92f05528653df5e52544de74f590 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.550 seconds
-Refreshing native plugins compatible for Editor in 5.69 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.181 seconds
-Domain Reload Profiling: 1730ms
-	BeginReloadAssembly (188ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (269ms)
-		LoadAssemblies (357ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1181ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (566ms)
+		SetupLoadedEditorAssemblies (657ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (456ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (538ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 3.96 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4022 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 4512.
-Memory consumption went from 148.3 MB to 148.3 MB.
-Total: 3.846800 ms (FindLiveObjects: 0.316000 ms CreateObjectMapping: 0.140200 ms MarkObjects: 3.326600 ms  DeleteObjects: 0.062800 ms)
+Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (61.4 KB). Loaded Objects now: 4495.
+Memory consumption went from 143.3 MB to 143.3 MB.
+Total: 3.975100 ms (FindLiveObjects: 0.315000 ms CreateObjectMapping: 0.312200 ms MarkObjects: 3.186400 ms  DeleteObjects: 0.160400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 557.171503 seconds.
+  path: Assets/HyD/DF game/Arts/Animation/New Animation.anim
+  artifactKey: Guid(8443f5c098cd10c43a6fd97cef318367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HyD/DF game/Arts/Animation/New Animation.anim using Guid(8443f5c098cd10c43a6fd97cef318367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d1a45bb57482c9849064312df7f2e8') in 0.012937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.500 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.191 seconds
+Domain Reload Profiling: 1691ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1192ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (671ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (562ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 4.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4020 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.7 KB). Loaded Objects now: 4500.
+Memory consumption went from 142.3 MB to 142.2 MB.
+Total: 3.135100 ms (FindLiveObjects: 0.308300 ms CreateObjectMapping: 0.132400 ms MarkObjects: 2.626100 ms  DeleteObjects: 0.067000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -448,5 +254,1992 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Demo.cs: 0b7a92f05528653df5e52544de74f590 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26312.905737 seconds.
+  path: Assets/HyD/DF game/Scripts/Scenes/Gameplay.unity
+  artifactKey: Guid(ef7e53d28b2c3b247a67c9c5dec336c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Scripts/Scenes/Gameplay.unity using Guid(ef7e53d28b2c3b247a67c9c5dec336c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd385dc7889f7c8ee106efe37c464e53d') in 0.280923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_02.png
+  artifactKey: Guid(3e382030df2a1d64e85a42e0e6e79679) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_02.png using Guid(3e382030df2a1d64e85a42e0e6e79679) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f425a0ae0846297df7e6e0b5555d5b1') in 0.133703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_16.png
+  artifactKey: Guid(c5ad44c90c95afa41b33814776772511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_16.png using Guid(c5ad44c90c95afa41b33814776772511) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8a4dec9c144927b6131b871290f10b4d') in 0.023576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_08.png
+  artifactKey: Guid(ba7fb3b6a72e5474b97f7fb99fcc9dd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_08.png using Guid(ba7fb3b6a72e5474b97f7fb99fcc9dd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c802ca6aa432832631977fb25791c12') in 0.022950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_00.png
+  artifactKey: Guid(ecbcc450324172c4a998781f3c5cd1e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_00.png using Guid(ecbcc450324172c4a998781f3c5cd1e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '099dbd125e18252d7b6e1743e2c01162') in 0.020471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_18.png
+  artifactKey: Guid(bf642d827a3804942a506d14247126da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_18.png using Guid(bf642d827a3804942a506d14247126da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cad48f1f972130fbd7b339d812250d34') in 0.023410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_17.png
+  artifactKey: Guid(fee80d5c68908154d9b6b4dcb56e5529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_17.png using Guid(fee80d5c68908154d9b6b4dcb56e5529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f005fe010efdbf21befaf2c32c9a098d') in 0.022975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_23.png
+  artifactKey: Guid(70b193c0bec2027419ad0d3de0b2f150) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_23.png using Guid(70b193c0bec2027419ad0d3de0b2f150) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8306ddb57e5a20f1e739241759a66ea6') in 0.022160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_12.png
+  artifactKey: Guid(74eef4935d825e2498844249ef3e8c6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_12.png using Guid(74eef4935d825e2498844249ef3e8c6a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bfff7acfc0f33d6a5beedb195ee3f559') in 0.023586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_05.png
+  artifactKey: Guid(5558b3de5c5f33e4f8a1949b22c2bf12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_05.png using Guid(5558b3de5c5f33e4f8a1949b22c2bf12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80f1dd9d61302a508396d38af6b37ac2') in 0.032343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_17.png
+  artifactKey: Guid(584c5774b9ffe7c4f8ed998b472600e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_17.png using Guid(584c5774b9ffe7c4f8ed998b472600e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c96ead7525d7f6004f6462278659628') in 0.021728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_18.png
+  artifactKey: Guid(eb0f1286efed8cf4f9d3bc34fa12bce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_18.png using Guid(eb0f1286efed8cf4f9d3bc34fa12bce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a3c9cdec80d7da99ec2f24ddc5389f27') in 0.024067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_12.png
+  artifactKey: Guid(6b9487d445d854241bf3840905f2bb98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_12.png using Guid(6b9487d445d854241bf3840905f2bb98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7b73b8fed38001c64d80caa2a0164cc') in 0.023509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_01.png
+  artifactKey: Guid(50daabff9d455494587f8f238119a30b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_01.png using Guid(50daabff9d455494587f8f238119a30b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db97e0fabf2869f6232501153c4e7a61') in 0.023745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_03.png
+  artifactKey: Guid(c3cd1f11d189a0443995ba2f01ed84a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_03.png using Guid(c3cd1f11d189a0443995ba2f01ed84a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ec4a25e59ef0bcebb75594ec7c860c9') in 0.022468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_05.png
+  artifactKey: Guid(9d1b518f738164b4b8b978f87559f1e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_05.png using Guid(9d1b518f738164b4b8b978f87559f1e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f3439c3630920271a334ba535ce6537') in 0.023668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_08.png
+  artifactKey: Guid(790f46af7d5cb7a479edd0f92bb60c42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_08.png using Guid(790f46af7d5cb7a479edd0f92bb60c42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0c2735a492862c4eadad8f7266a89cd') in 0.021120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_22.png
+  artifactKey: Guid(33c72f755021c2541959402968601c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_22.png using Guid(33c72f755021c2541959402968601c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cce38b434b7f55e3088526606afaad71') in 0.022453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_00.png
+  artifactKey: Guid(3f2fc5991ed3d2345a0ac19fb8b22f25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_00.png using Guid(3f2fc5991ed3d2345a0ac19fb8b22f25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c7f581dae1652dcd1a551535989db9e') in 0.030773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_11.png
+  artifactKey: Guid(6173e4f53bd22f2449f3890a05bde843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_11.png using Guid(6173e4f53bd22f2449f3890a05bde843) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '247b3dcdd65c5476dd0a5cf43593896f') in 0.025479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_10.png
+  artifactKey: Guid(b82f163cca2f13f4caeaf01a1483481b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_10.png using Guid(b82f163cca2f13f4caeaf01a1483481b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ad6d058a78b50bb51fa0d2fd14cc6d6') in 0.024889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_19.png
+  artifactKey: Guid(553a787aa47935e43b7a76b88e15b7a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_19.png using Guid(553a787aa47935e43b7a76b88e15b7a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '813092d005497b6db04558564deba28d') in 0.021917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/GUI/Heroes_icon.png
+  artifactKey: Guid(b44538b9c2f6a4c4792864706bf3dc23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/GUI/Heroes_icon.png using Guid(b44538b9c2f6a4c4792864706bf3dc23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5956f95ac39c67452c0022f790f47ee') in 0.023271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_16.png
+  artifactKey: Guid(4fc30a730a576df4b994600edaf13bcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_16.png using Guid(4fc30a730a576df4b994600edaf13bcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed2805315e474fe0b2fea090a912a55f') in 0.020399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_06.png
+  artifactKey: Guid(bfecf95affdb6f24ca1d55c60e695b43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_06.png using Guid(bfecf95affdb6f24ca1d55c60e695b43) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e14481286c1744cbe149063a017966b') in 0.022108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_14.png
+  artifactKey: Guid(e5884e81e42787a42be3d40896a9f440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_14.png using Guid(e5884e81e42787a42be3d40896a9f440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78ca09d80f8c2e20583405bd6e66b19f') in 0.021032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_12.png
+  artifactKey: Guid(0ac5e95c46182cc449292679a7bfa5b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_12.png using Guid(0ac5e95c46182cc449292679a7bfa5b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3202959655b8651f78f6e50e4219d92d') in 0.020987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_39.png
+  artifactKey: Guid(93c7db71dac6faf438bd5dd0fdbbf68d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_39.png using Guid(93c7db71dac6faf438bd5dd0fdbbf68d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '047923886461b70501e89718bd8dbb32') in 0.024775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_32.png
+  artifactKey: Guid(3593253f2f59dec41b8babcf53fadfa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_32.png using Guid(3593253f2f59dec41b8babcf53fadfa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78d59f53d58c85661d3a3500aec72be5') in 0.023755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_14.png
+  artifactKey: Guid(06d2245f0ac282045ac4d1e5e612b446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_14.png using Guid(06d2245f0ac282045ac4d1e5e612b446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16bb43e19dbc082a09108ef2ee9a59a8') in 0.026010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_42.png
+  artifactKey: Guid(94f167064bd0fc541ae673cf1eb55710) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_42.png using Guid(94f167064bd0fc541ae673cf1eb55710) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '85115141b0e07228cf0422f358ab98a5') in 0.024085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_21.png
+  artifactKey: Guid(cb28b592e5eba184aaf033fc07241003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_21.png using Guid(cb28b592e5eba184aaf033fc07241003) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f310b5771cc4a19572b9b18932fec8df') in 0.023872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_00.png
+  artifactKey: Guid(5e84897d4451fa743bd5ef3a82c4716e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_00.png using Guid(5e84897d4451fa743bd5ef3a82c4716e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9da6ea6b67d8ce7909008503fab69ca2') in 0.025014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_07.png
+  artifactKey: Guid(b57009ce425e8444d9625226093ae96c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_07.png using Guid(b57009ce425e8444d9625226093ae96c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7da99ea6c56ac0c3f01b76fb8046b1c0') in 0.020921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_34.png
+  artifactKey: Guid(ac6d32dca2ab7914595a522386d3b4aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_34.png using Guid(ac6d32dca2ab7914595a522386d3b4aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03688192bb9b5f22dd35761aded4d7df') in 0.021591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_20.png
+  artifactKey: Guid(db48838f3abf0274a97de9e429f32f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_20.png using Guid(db48838f3abf0274a97de9e429f32f01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36e71e6fe341f6d7b09cc1c0fa07efdb') in 0.022186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_33.png
+  artifactKey: Guid(d8d0f013f95f1f04bac83b242e0cae19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_33.png using Guid(d8d0f013f95f1f04bac83b242e0cae19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82a89e0d8386307e92d9e5e49de94052') in 0.022560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_04.png
+  artifactKey: Guid(0437896b470709f48952633e3cff270a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_04.png using Guid(0437896b470709f48952633e3cff270a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a4785f8b4633d1126c0c5332971a002') in 0.022754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_17.png
+  artifactKey: Guid(552d4edeec2e5144989ba99bc27dc1a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_17.png using Guid(552d4edeec2e5144989ba99bc27dc1a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '91e33fa90d96baa9fe2003f28b56c8df') in 0.023980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_03.png
+  artifactKey: Guid(753d62a0604b7d0438a21d60e5d9d485) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_03.png using Guid(753d62a0604b7d0438a21d60e5d9d485) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62e100aef12ebc2d652bb893adbb9593') in 0.022267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_07.png
+  artifactKey: Guid(9a6ee73a367298e4e98a1e133c0117b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_07.png using Guid(9a6ee73a367298e4e98a1e133c0117b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8761c356a24171084d1da265f978e11c') in 0.020187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_18.png
+  artifactKey: Guid(516a81bd7792e9a42a68fdc7cd8929ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_18.png using Guid(516a81bd7792e9a42a68fdc7cd8929ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd3616be144daf1189d6d6e0b9eda2ed') in 0.019781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_19.png
+  artifactKey: Guid(9e2f9fba5e099064384fce30856dfc9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_19.png using Guid(9e2f9fba5e099064384fce30856dfc9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6edde5a84ec26578d3312db8da855ebd') in 0.024099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_21.png
+  artifactKey: Guid(a7bde1c44dec07445a13fbaae1f429e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_21.png using Guid(a7bde1c44dec07445a13fbaae1f429e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82a20b01d00b70dc33bc34754e1be3fe') in 0.023651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/GUI/Green_Btn1.png
+  artifactKey: Guid(c1ef88a2bc20d8e4d9ede7021e4433b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/GUI/Green_Btn1.png using Guid(c1ef88a2bc20d8e4d9ede7021e4433b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fbe474781931411ed96b568813d99396') in 0.022379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_10.png
+  artifactKey: Guid(6e86c68444848f142b381b9658d81b70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_10.png using Guid(6e86c68444848f142b381b9658d81b70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8468a748aa2c973e5ebb83636249aff') in 0.024710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/GUI/Orange_btn.png
+  artifactKey: Guid(70dfd55b1b0209f4bb3f80cf50d013e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/GUI/Orange_btn.png using Guid(70dfd55b1b0209f4bb3f80cf50d013e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed168f03ae2dea905a464112ea3db69b') in 0.020215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_08.png
+  artifactKey: Guid(bc0fe052bd4edd64799b981b7e204457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_08.png using Guid(bc0fe052bd4edd64799b981b7e204457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4190355391854ef5c8fe87947acbc1c') in 0.019947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_16.png
+  artifactKey: Guid(3830b3d0088ee6a48b546f151fdcc227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_16.png using Guid(3830b3d0088ee6a48b546f151fdcc227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f244c1b68f4d00e48037498edbe2c21c') in 0.023765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_15.png
+  artifactKey: Guid(53dc4b70dafe19f4f9c0454f6318539e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_15.png using Guid(53dc4b70dafe19f4f9c0454f6318539e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ac191e4b50dbef613d047aa69aa5ae5') in 0.024770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_02.png
+  artifactKey: Guid(f90dd65546e30bd46ad3ac6cdf066fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_02.png using Guid(f90dd65546e30bd46ad3ac6cdf066fb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8c72a7eeaaa416824f1d3a514ac83c5c') in 0.021863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_21.png
+  artifactKey: Guid(fba5e5b80a93a3d4fa81c9935f473d64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_21.png using Guid(fba5e5b80a93a3d4fa81c9935f473d64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3479555f68b250fb6a26ca315cb90a8f') in 0.023636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_00.png
+  artifactKey: Guid(e7e5414517d848f4bb751ac4f59695d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_00.png using Guid(e7e5414517d848f4bb751ac4f59695d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '787360e5faa519ccdf5016bedf5912b9') in 0.023138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_08.png
+  artifactKey: Guid(90c5386279fea0e4797e09bd39af168e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_08.png using Guid(90c5386279fea0e4797e09bd39af168e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c42c12cd496a85a4876ee77af7a3825f') in 0.023908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_24.png
+  artifactKey: Guid(319363dabc13cb24085e2108d5e1123b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_24.png using Guid(319363dabc13cb24085e2108d5e1123b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2db3ece1f76dc3335eb867d9d5429293') in 0.023057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_17.png
+  artifactKey: Guid(b0ee4f0521d07954c98397f4b40bd80f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_17.png using Guid(b0ee4f0521d07954c98397f4b40bd80f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8da50e26dd6eb94006be5a794c3cd56') in 0.020880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_20.png
+  artifactKey: Guid(cbb200bcbf0598e4ba4ca77b47ea804d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_20.png using Guid(cbb200bcbf0598e4ba4ca77b47ea804d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4307601dd342ec8fad784bb7e2af6e65') in 0.022440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_10.png
+  artifactKey: Guid(f659229159fbe0c49903cf5a25293117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_10.png using Guid(f659229159fbe0c49903cf5a25293117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '151482a700974351f2d5bb9efb93a7f0') in 0.019405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_02.png
+  artifactKey: Guid(3201804abff0c4343af21a187536e6ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Attack/Attack_02.png using Guid(3201804abff0c4343af21a187536e6ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac64cc1ec58b06fdb95091dcc1149aa9') in 0.020399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_09.png
+  artifactKey: Guid(60c26ab99355e864ba94a08ecbb25b9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_09.png using Guid(60c26ab99355e864ba94a08ecbb25b9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b6813aa295235bccb560658a72ba20be') in 0.021853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_04.png
+  artifactKey: Guid(30d52888c1862c74696626dae023a0cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_04.png using Guid(30d52888c1862c74696626dae023a0cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3835042b062baf86c6edd3b1f13cfa22') in 0.023247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_19.png
+  artifactKey: Guid(579eff59b9c468a478ebc2a56c25ec16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_19.png using Guid(579eff59b9c468a478ebc2a56c25ec16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a718e6128898a60a03537d183fa880a3') in 0.026232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_27.png
+  artifactKey: Guid(e5b4c4b7be682a94c87144faa36e38ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_27.png using Guid(e5b4c4b7be682a94c87144faa36e38ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '106b42f23610fecf604ce27185087024') in 0.025490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_36.png
+  artifactKey: Guid(5a0888fdc6284be4f93cec7379ef8cd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_36.png using Guid(5a0888fdc6284be4f93cec7379ef8cd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'db19086f698e02b762154c2bd1b65118') in 0.023661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_11.png
+  artifactKey: Guid(24d134bf24a765144848eb767eaf6a8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_11.png using Guid(24d134bf24a765144848eb767eaf6a8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '84f7775f2b3ca497794ff5e407ab4d6d') in 0.023664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_18.png
+  artifactKey: Guid(df25289aca26e8047b64d511923c38f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_18.png using Guid(df25289aca26e8047b64d511923c38f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5aa346ca3e3b6d0ba0e3793be9c26265') in 0.024806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/GUI/MusicIcon.png
+  artifactKey: Guid(f8680fc97f102dc4f8fd9cba60980b22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/GUI/MusicIcon.png using Guid(f8680fc97f102dc4f8fd9cba60980b22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12d44a8f026f665704d12debd1362c3b') in 0.025756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_44.png
+  artifactKey: Guid(c5de1a0b01bcedd4fa8ec89b810365b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_44.png using Guid(c5de1a0b01bcedd4fa8ec89b810365b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ffc889b18f7d4bd4c8d5a93ad6c4c28') in 0.021813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_23.png
+  artifactKey: Guid(96e239447d4e9bf45bbbe7df5a6f1e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_23.png using Guid(96e239447d4e9bf45bbbe7df5a6f1e1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5e385f0e3d1e5e60ca7954935a25959') in 0.023224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_12.png
+  artifactKey: Guid(251337a656882cf42aef0d12cb5a16c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_12.png using Guid(251337a656882cf42aef0d12cb5a16c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cf7b2a342e7984e443f8666ca8f475a7') in 0.023286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_03.png
+  artifactKey: Guid(92879c81eb9dde440b92e30e079c5aeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_03.png using Guid(92879c81eb9dde440b92e30e079c5aeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a44147a1bb2fe00a8a0940a3bddae17e') in 0.025210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_13.png
+  artifactKey: Guid(7c4f6ef0161ad4147a5bd410a89047d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_13.png using Guid(7c4f6ef0161ad4147a5bd410a89047d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '05544b21d8e9a68b509ec98c2f034c4e') in 0.022897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_11.png
+  artifactKey: Guid(baf84aa1957b1654daf73fbb7f03fdf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_11.png using Guid(baf84aa1957b1654daf73fbb7f03fdf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41a160d230c44cab7a8df81d75603e39') in 0.022231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_02.png
+  artifactKey: Guid(626409a14badc4b4f9319dcde4cad62d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_02.png using Guid(626409a14badc4b4f9319dcde4cad62d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c2c285fdbd122bb40926b9ce573d8d2') in 0.022094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_27.png
+  artifactKey: Guid(3f0be34fa18b03943a27019000c311e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_27.png using Guid(3f0be34fa18b03943a27019000c311e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c06f4b84f5352f49eaa921d376fd7073') in 0.021911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_32.png
+  artifactKey: Guid(64adfabb51064a74c98b4430117254ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_32.png using Guid(64adfabb51064a74c98b4430117254ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '008c6561551d0c6c9da27fdbf0127164') in 0.023890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_16.png
+  artifactKey: Guid(cbb2534c9c92f6541b7c6c8178d87629) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_16.png using Guid(cbb2534c9c92f6541b7c6c8178d87629) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15f39762de8f767ff68d535a77280058') in 0.024304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/GUI/PauseIcon.png
+  artifactKey: Guid(0571b5e86949698468dbbeb28f4b54f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/GUI/PauseIcon.png using Guid(0571b5e86949698468dbbeb28f4b54f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42764469a04da4f7378fafc0e0f0cd5f') in 0.022923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_38.png
+  artifactKey: Guid(e73eead2de3b0b74394fd5297b955119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_38.png using Guid(e73eead2de3b0b74394fd5297b955119) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e149cf4db49e959f3acbc1e594f577f9') in 0.022604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_24.png
+  artifactKey: Guid(5679199b2d3e9d3448fec9a6b80429fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_24.png using Guid(5679199b2d3e9d3448fec9a6b80429fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '780510bfd3f7ef264748882f89f86f1f') in 0.027383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_33.png
+  artifactKey: Guid(81d3400b19a35c0478d421a50932d4f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_33.png using Guid(81d3400b19a35c0478d421a50932d4f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f68c0f2b2a76a77eed58f8a55ec3364') in 0.024238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_15.png
+  artifactKey: Guid(4128db2f62bda9d499922c7b272edc77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_15.png using Guid(4128db2f62bda9d499922c7b272edc77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '57109ea70f63f76b0c9e8186169b1103') in 0.022939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_27.png
+  artifactKey: Guid(3324edce9333c714687dbd5f838a70a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_27.png using Guid(3324edce9333c714687dbd5f838a70a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7704911ba12c95e168f82b214299d79') in 0.023518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_06.png
+  artifactKey: Guid(1ebcf51114d916e41a22301483d0ebf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_06.png using Guid(1ebcf51114d916e41a22301483d0ebf3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53966184e4925489bf167f7a2a11580d') in 0.022770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_06.png
+  artifactKey: Guid(a1ea993794418ae4285e4d81d8081518) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_06.png using Guid(a1ea993794418ae4285e4d81d8081518) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d8b6a8fe6a62aa502e54614bb52e591') in 0.023251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_09.png
+  artifactKey: Guid(6fc9424b4ffcf5f4a90b9a2f5df59e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_09.png using Guid(6fc9424b4ffcf5f4a90b9a2f5df59e0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e117e4dfcbbae9f549f56de4e4cf74de') in 0.021655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_07.png
+  artifactKey: Guid(cc3df16f82d3c8347831a3516c60dffe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_07.png using Guid(cc3df16f82d3c8347831a3516c60dffe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f96cd7aa2996f6e0305d08b41461dd9a') in 0.023873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_19.png
+  artifactKey: Guid(7d21407ca58268c4ab2cd395d830880f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_19.png using Guid(7d21407ca58268c4ab2cd395d830880f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '50d038d4de2180c9028361b37e13571b') in 0.022532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_34.png
+  artifactKey: Guid(e5a00cbea0db590448b1fb4629ebdce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_34.png using Guid(e5a00cbea0db590448b1fb4629ebdce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e96cbf7573728f568923cb6b31fabc99') in 0.023881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_18.png
+  artifactKey: Guid(14fc8628be083ba4a965fea84a4c813b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_18.png using Guid(14fc8628be083ba4a965fea84a4c813b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c3baca7560e91d9f5fe68423d76c973') in 0.022050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_02.png
+  artifactKey: Guid(a76f5190aea14c4439fd62c6d21c066a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_02.png using Guid(a76f5190aea14c4439fd62c6d21c066a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '31b66c81de473d5825f2193828567038') in 0.020770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_19.png
+  artifactKey: Guid(245a0ac1ce5163a4198d0ce0e7e33918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_19.png using Guid(245a0ac1ce5163a4198d0ce0e7e33918) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d4a4c1f48b1d9427c90e36961dab72b') in 0.025664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_03.png
+  artifactKey: Guid(929f5d52eaded5841998d149ef046a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_03.png using Guid(929f5d52eaded5841998d149ef046a11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9acbc0115220bece3616095896ed456c') in 0.024190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_38.png
+  artifactKey: Guid(84d510b7e225d864ebe802ef26089471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_38.png using Guid(84d510b7e225d864ebe802ef26089471) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66c5d0b3c0372f6ad796e110ece4c214') in 0.024211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_03.png
+  artifactKey: Guid(e98fa781ea09afb44825e0d8d5422f85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_03.png using Guid(e98fa781ea09afb44825e0d8d5422f85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '21120149024a06cd1e7078c14696b323') in 0.023137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_14.png
+  artifactKey: Guid(197a72beb3b11d84c84ab18db89bd777) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_14.png using Guid(197a72beb3b11d84c84ab18db89bd777) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '60ba271ea7b8af49717b20d7109c6966') in 0.023531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_01.png
+  artifactKey: Guid(cc91ecb1dfa202c449b5252ccc41cf53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_01.png using Guid(cc91ecb1dfa202c449b5252ccc41cf53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e73a42174335c891ed630d387ed9332') in 0.022687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_12.png
+  artifactKey: Guid(ca4f543b5d54a5f40a87b1a50a6b1d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_12.png using Guid(ca4f543b5d54a5f40a87b1a50a6b1d08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b440c1b1ca9d3a6414453e2471b930d1') in 0.022864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_13.png
+  artifactKey: Guid(37ea948ad6ee1554c8009f438d0483d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_13.png using Guid(37ea948ad6ee1554c8009f438d0483d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c4db132b1645d5eb06c57ea9acae2ed') in 0.021245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_46.png
+  artifactKey: Guid(f3449eaa464df0d429b2c2e182a16914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_46.png using Guid(f3449eaa464df0d429b2c2e182a16914) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '390a523c975e8b37f0c6381aae5eea85') in 0.022227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_05.png
+  artifactKey: Guid(8944669819335ac45852f728a1fc2e9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_05.png using Guid(8944669819335ac45852f728a1fc2e9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5507d03afae34b11e90ad232f984aff') in 0.021181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_05.png
+  artifactKey: Guid(80ec5cee62a65f14594a48b0cadf7c7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_05.png using Guid(80ec5cee62a65f14594a48b0cadf7c7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d091df6e98427abe40226f43f9adb14') in 0.023149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_06.png
+  artifactKey: Guid(16b4c909211e2ca4e82a420e9eda83dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_06.png using Guid(16b4c909211e2ca4e82a420e9eda83dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd26477e2cebf0a2fcdbd9d5c510745ed') in 0.025381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_02.png
+  artifactKey: Guid(8e9693bf4c97fda4eb4f789e0031a7ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_02.png using Guid(8e9693bf4c97fda4eb4f789e0031a7ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b75662c6a8371424bacb7061b69f9152') in 0.022775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_00.png
+  artifactKey: Guid(05f1e750fdd84f64f8d04c89aa5fe4a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_00.png using Guid(05f1e750fdd84f64f8d04c89aa5fe4a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10475069eec708ddcb7e7928b23b257c') in 0.027399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_10.png
+  artifactKey: Guid(de1c4a22f9902144d8a4a2b67d16732b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_10.png using Guid(de1c4a22f9902144d8a4a2b67d16732b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '916d5d4636d885f5052510457472ea32') in 0.023465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_18.png
+  artifactKey: Guid(105265b3d3507034dbaa514691e6b3bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Walk/Walk_18.png using Guid(105265b3d3507034dbaa514691e6b3bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9657607182f789d4ff1d89ff33d97e88') in 0.023059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_19.png
+  artifactKey: Guid(203447e138c39c0459334d8bdb74d74d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_19.png using Guid(203447e138c39c0459334d8bdb74d74d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82c1c196e69d6a3e73a713f81cf96f86') in 0.022125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_20.png
+  artifactKey: Guid(9424c66ca00ff2942a7c30586495ef5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_20.png using Guid(9424c66ca00ff2942a7c30586495ef5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'abe0784bf0261c6c81d2b55407bb9e1a') in 0.024472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_34.png
+  artifactKey: Guid(05ae88fb887b3ba44a47a06d292b1e9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_34.png using Guid(05ae88fb887b3ba44a47a06d292b1e9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e5274b1f8aaf15333da83a1b8b6558cc') in 0.021410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_07.png
+  artifactKey: Guid(e9f0bb7e6eb42374f80f3c89fc2000bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_07.png using Guid(e9f0bb7e6eb42374f80f3c89fc2000bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a5970115ecdb395c214e880c5d3bd5c') in 0.025257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_09.png
+  artifactKey: Guid(49700ee289b6a9d48a50e0c4788d8a8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_09.png using Guid(49700ee289b6a9d48a50e0c4788d8a8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1332e4c91777ee78df602b0f3f488e39') in 0.022736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_00.png
+  artifactKey: Guid(5bd6047363cf9f44fbf745ef219b44dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_00.png using Guid(5bd6047363cf9f44fbf745ef219b44dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0b284ee6c9ddd200e811c37eb2f6a21') in 0.023366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_04.png
+  artifactKey: Guid(e3e3516e0aa841548988bbccc2821533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_04.png using Guid(e3e3516e0aa841548988bbccc2821533) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bdc19c1e46eb4ee2496d6368c1d26d84') in 0.023843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_09.png
+  artifactKey: Guid(0bdd18ca842fc5b40a33042de6582a34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_09.png using Guid(0bdd18ca842fc5b40a33042de6582a34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd0e840a54673b6f58c28bfea704d5bb') in 0.023691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_01.png
+  artifactKey: Guid(bba57fb645e22aa4f934baf259054d78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_01.png using Guid(bba57fb645e22aa4f934baf259054d78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd552da3bcda0af19427d9ebf8db52e06') in 0.022449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_12.png
+  artifactKey: Guid(5dc2b4aadc8368145bfe2f0d4ac8c42a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_12.png using Guid(5dc2b4aadc8368145bfe2f0d4ac8c42a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5bc0976cf1d213cf016b00a2845ed7b6') in 0.022874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_14.png
+  artifactKey: Guid(3a870a8741e5f32449204a91d27163a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_14.png using Guid(3a870a8741e5f32449204a91d27163a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '215517f74aed7ba7e4335f633f22ce8d') in 0.024353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_11.png
+  artifactKey: Guid(e20b3da1efde26142929aa66f19e8b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_11.png using Guid(e20b3da1efde26142929aa66f19e8b59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3a13afa056c73198f3f3f4f2ca1b886') in 0.024207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_04.png
+  artifactKey: Guid(48ed1d853003cc74b871e4a8af7ef50e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_04.png using Guid(48ed1d853003cc74b871e4a8af7ef50e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0883dee0d426c585e32b850a1f429527') in 0.020293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_12.png
+  artifactKey: Guid(b6524fd944fa9be4d883adf1dc8babda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_12.png using Guid(b6524fd944fa9be4d883adf1dc8babda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '301ed5b3ea198e273b06929c55581854') in 0.026240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_13.png
+  artifactKey: Guid(4535686506286614981d5b204336f37f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_13.png using Guid(4535686506286614981d5b204336f37f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3b2fd6a280d69fcb6268e6fdd6970c0') in 0.022744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_01.png
+  artifactKey: Guid(fb6c67ffa9706404ebfef2524a508551) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_01.png using Guid(fb6c67ffa9706404ebfef2524a508551) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b189715889e25c8cace8560e64b03770') in 0.024904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_07.png
+  artifactKey: Guid(88825e12255d2fe4caae40a9c74e466e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_07.png using Guid(88825e12255d2fe4caae40a9c74e466e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9780763b443e3f4710f031ee51086f2a') in 0.022424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_05.png
+  artifactKey: Guid(6ef410e5faf1c04488d81fb2c3c1d7ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_05.png using Guid(6ef410e5faf1c04488d81fb2c3c1d7ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2dd3074d262ea8d17992605923580c41') in 0.022309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_19.png
+  artifactKey: Guid(98fa6c31e5f1d8144b3f28e023e5c021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_19.png using Guid(98fa6c31e5f1d8144b3f28e023e5c021) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '43d9b4a61c000222600dc4bc8080d2ac') in 0.023746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_03.png
+  artifactKey: Guid(c6be43b4393502046b91d7a8e8d93093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_03.png using Guid(c6be43b4393502046b91d7a8e8d93093) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e5a4b468d6868ea78bf89f4262acc79') in 0.021436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_29.png
+  artifactKey: Guid(53af02c6b1e99c9469360a9923c83f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_29.png using Guid(53af02c6b1e99c9469360a9923c83f97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d1faef55a7375111ac8d60177f54fab') in 0.026283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_13.png
+  artifactKey: Guid(9568c67dd1372e14fbbd65355806750c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Walk/Walk_13.png using Guid(9568c67dd1372e14fbbd65355806750c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c4c90ec39a98ef0f71048a8a3220779d') in 0.021951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_28.png
+  artifactKey: Guid(547188a901f364a4dbf38ab84e8645ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_28.png using Guid(547188a901f364a4dbf38ab84e8645ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8325d1c2a2101c1e99da56d48ec6015') in 0.023609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_25.png
+  artifactKey: Guid(617b09e519d49764ca7732621898ce16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_25.png using Guid(617b09e519d49764ca7732621898ce16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9b59abfcafcbe58cca8966749496b7f') in 0.020841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_44.png
+  artifactKey: Guid(93b2adf040592994ea66138f9123e788) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_44.png using Guid(93b2adf040592994ea66138f9123e788) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f299bf7a2eebc792b30f37c312ee7aa') in 0.015408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_02.png
+  artifactKey: Guid(2734eba535db65546b9eaf764075ef76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_02.png using Guid(2734eba535db65546b9eaf764075ef76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b221e624bc053418ada3e093134e7c60') in 0.016627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_43.png
+  artifactKey: Guid(cef49ee2ff2c99b41a25bca4b044efb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_43.png using Guid(cef49ee2ff2c99b41a25bca4b044efb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '725a5087b4f69626e755c0d8f76dd6b4') in 0.015467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_04.png
+  artifactKey: Guid(683e2cdbcc62aa6459bd190c16162989) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_04.png using Guid(683e2cdbcc62aa6459bd190c16162989) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5dee045c45f84437e0e3b1c19321a14e') in 0.017358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_06.png
+  artifactKey: Guid(52fcf719f33e536478d11d55253df5f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_06.png using Guid(52fcf719f33e536478d11d55253df5f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b1af9aa59996c4c5a65e0652f0170e5') in 0.018901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_39.png
+  artifactKey: Guid(14e69c5cb4228464bbe2125b51d6bee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_39.png using Guid(14e69c5cb4228464bbe2125b51d6bee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e9039a012af87a87187b5a1fef26ef19') in 0.016585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_18.png
+  artifactKey: Guid(170de9ff18c38d4498253c6c3f6753af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_18.png using Guid(170de9ff18c38d4498253c6c3f6753af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98b533bf3caea3e72080d420b6fc1a81') in 0.015480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_13.png
+  artifactKey: Guid(a98e8d3dca995ad4a93c441595305637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_13.png using Guid(a98e8d3dca995ad4a93c441595305637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd1f703392de5384f49ea46e58abeaa7f') in 0.017201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_09.png
+  artifactKey: Guid(f576e1088ac6f2a4c936e1fb33af1b12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_09.png using Guid(f576e1088ac6f2a4c936e1fb33af1b12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '15a5bf2aef8ef12e70525da666205d51') in 0.015867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_26.png
+  artifactKey: Guid(b05edaad10f49054c9c5610e8b7de514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_26.png using Guid(b05edaad10f49054c9c5610e8b7de514) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a544e278344dada0824014b285e7cedf') in 0.015951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_25.png
+  artifactKey: Guid(138a87e7386b2d34eb2ba7e95de12178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_25.png using Guid(138a87e7386b2d34eb2ba7e95de12178) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '198bbf399a552e97211e62591edcf985') in 0.017767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_14.png
+  artifactKey: Guid(0e13a35aeceff1e40940517ba8b9d69e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_14.png using Guid(0e13a35aeceff1e40940517ba8b9d69e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1595da363a4e480d113a172bfa50aa40') in 0.017693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_00.png
+  artifactKey: Guid(a60cab8f168c04e44944913653077d85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_00.png using Guid(a60cab8f168c04e44944913653077d85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c6ba5cb653ac293e42fe77541dfb918') in 0.023981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Idle/Idle_05.png
+  artifactKey: Guid(00b4e957d96969049abb27160cf1cff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Idle/Idle_05.png using Guid(00b4e957d96969049abb27160cf1cff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4586699214f1b0286700fbfc4892d3ab') in 0.021699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_00.png
+  artifactKey: Guid(2443b469cd4ce8946962867ae2a63905) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_00.png using Guid(2443b469cd4ce8946962867ae2a63905) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ee51490811d592ccaf699560441592a') in 0.023893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_06.png
+  artifactKey: Guid(66361381169f8fb4d94bfee4271f4c34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_06.png using Guid(66361381169f8fb4d94bfee4271f4c34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3754b50e7b11f421c3dd66155a9e7d9a') in 0.021381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_09.png
+  artifactKey: Guid(17830c69c5519d04fa151d340f6f2eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_09.png using Guid(17830c69c5519d04fa151d340f6f2eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a4ea7c8710cf705468f6bfd6f922b190') in 0.021947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_06.png
+  artifactKey: Guid(a62837ae7b396a745a09695c0cdde955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_06.png using Guid(a62837ae7b396a745a09695c0cdde955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0b4ba95bc5034dc2d19ba31e676ae414') in 0.025460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_00.png
+  artifactKey: Guid(269de31a9536a2d4fba2673982672ee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_00.png using Guid(269de31a9536a2d4fba2673982672ee6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b34d49e3915a99c8fd66a57d737976c') in 0.023673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_08.png
+  artifactKey: Guid(49e97a11ded7e5d4e9ebc018312c2013) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_08.png using Guid(49e97a11ded7e5d4e9ebc018312c2013) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74113cd6639f9d42191ed69f75fca97b') in 0.026104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_05.png
+  artifactKey: Guid(0c9a359bef82ba24782a753085f4d10c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_05.png using Guid(0c9a359bef82ba24782a753085f4d10c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7cacc04c7c89250b7c7af0405926e02') in 0.021320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_01.png
+  artifactKey: Guid(b9ae09e2e1fee9642968881fa5311bd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_01.png using Guid(b9ae09e2e1fee9642968881fa5311bd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a41e00015e5527fd3984a16fc9099b4') in 0.021611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_14.png
+  artifactKey: Guid(e78577dea63fc4b4ea779c0b466ef913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_14.png using Guid(e78577dea63fc4b4ea779c0b466ef913) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f98997dcb3dc89f7f9aab5df9f2c3d9') in 0.025072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_17.png
+  artifactKey: Guid(a46cbb0cab274ed448bdef06eff4bd27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_17.png using Guid(a46cbb0cab274ed448bdef06eff4bd27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '10b42ff0d450df4cdc86dd7578984855') in 0.024308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Idle/Idle_08.png
+  artifactKey: Guid(a23a929f1189c5746a0d8e4507798ddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Idle/Idle_08.png using Guid(a23a929f1189c5746a0d8e4507798ddd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a2e607c87e76bcaecb1302c4aa7e0441') in 0.024858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Idle/Idle_12.png
+  artifactKey: Guid(2276a49912c04d74aba0b53a7c2dac3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Idle/Idle_12.png using Guid(2276a49912c04d74aba0b53a7c2dac3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67e1f2c4d0a21673a4bad045221eb4b4') in 0.022114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_08.png
+  artifactKey: Guid(c6fdac2e3a6e4964c96d866dcc731b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_08.png using Guid(c6fdac2e3a6e4964c96d866dcc731b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16d43a0418f535e37980ccf845df5a65') in 0.024200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_03.png
+  artifactKey: Guid(3b7eda52e093bb844b76f4c1e89fe242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_03.png using Guid(3b7eda52e093bb844b76f4c1e89fe242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e8e463b6669a83b005e168e5252bf2e') in 0.023115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_05.png
+  artifactKey: Guid(3369e946784f03e4aa30aadd2de32db1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_05.png using Guid(3369e946784f03e4aa30aadd2de32db1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7a572a56b36b4f4003865280f768309b') in 0.020478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_01.png
+  artifactKey: Guid(ffae13fd61f9bc8408158077cb41784a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_01.png using Guid(ffae13fd61f9bc8408158077cb41784a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf4fdd78b54eca0f01f5bff3fdd7bf40') in 0.019592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_04.png
+  artifactKey: Guid(7586bdf75777c564d9ed128237ea6829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_04.png using Guid(7586bdf75777c564d9ed128237ea6829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2668e68571e84f3ad8e0bb9e56eec880') in 0.023754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Idle/Idle_06.png
+  artifactKey: Guid(2af85ff537861c74d9972438115d93ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Idle/Idle_06.png using Guid(2af85ff537861c74d9972438115d93ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81c24d764b551cc4a1d3ee8c31659089') in 0.022399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_04.png
+  artifactKey: Guid(25c99c7667158604cbc4a77ba6685f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_04.png using Guid(25c99c7667158604cbc4a77ba6685f66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7643fab9fc8be0ad5148a238c76b2947') in 0.022570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_19.png
+  artifactKey: Guid(570c534c7109b064e958207035809416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_19.png using Guid(570c534c7109b064e958207035809416) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98e73becfb16d690901ccb46d73a7005') in 0.026392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_13.png
+  artifactKey: Guid(9ac4e44a575d3754a8ed8c527e0f2421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_13.png using Guid(9ac4e44a575d3754a8ed8c527e0f2421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '58ce6182d9031e0e116a654999fd37f7') in 0.021778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_03.png
+  artifactKey: Guid(96e867b41cb8854488075eb9e2d4fa58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_03.png using Guid(96e867b41cb8854488075eb9e2d4fa58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67ea48943fe54f9da3af5740514930d7') in 0.022647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_17.png
+  artifactKey: Guid(c50484d3d9b7c9b419fee8c917d4c6af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_17.png using Guid(c50484d3d9b7c9b419fee8c917d4c6af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a751511b8aec931a493e37fb37d72055') in 0.021926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_05.png
+  artifactKey: Guid(d474ab07b9052b44b872840c45604791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_05.png using Guid(d474ab07b9052b44b872840c45604791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd2bff95ce6ac1883dd2c6b06b41784a3') in 0.020544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_26.png
+  artifactKey: Guid(0c24b8856f3da5a4c949a407d92f03c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_26.png using Guid(0c24b8856f3da5a4c949a407d92f03c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fdcb66ff58b89d8abc711eaed3547f2') in 0.022630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_10.png
+  artifactKey: Guid(585c9eb05242b594fb3c9cf8b5ab0a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_10.png using Guid(585c9eb05242b594fb3c9cf8b5ab0a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd218401cc4c6da546a1ac773d393bd73') in 0.019896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_23.png
+  artifactKey: Guid(3b267ad5e884b304bb30e9a69491e955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_23.png using Guid(3b267ad5e884b304bb30e9a69491e955) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f9ea59291d790b67512b0570aaed9f2a') in 0.025361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_22.png
+  artifactKey: Guid(a98db52e1c651c64288ed81c9a6d7b9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_22.png using Guid(a98db52e1c651c64288ed81c9a6d7b9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f7e6aa6638777aa8109a0e0d34290a36') in 0.021726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_02.png
+  artifactKey: Guid(d1774b84d965dd34ca93a8226c24a264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_02.png using Guid(d1774b84d965dd34ca93a8226c24a264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6cbc4e43579b1d0aadb7363bf0b6fd6f') in 0.022106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_24.png
+  artifactKey: Guid(3f68754e94692bb4781b791952e7fc5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_24.png using Guid(3f68754e94692bb4781b791952e7fc5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59096fad9b568765d7f84a1e586f410b') in 0.022548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_24.png
+  artifactKey: Guid(827e954b1699c7845bf7fa469a2eed89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_24.png using Guid(827e954b1699c7845bf7fa469a2eed89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6a9df9878471e55859e0d3a96aec13d') in 0.021683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_28.png
+  artifactKey: Guid(e8f4904bca8edac42b1e275859330303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_28.png using Guid(e8f4904bca8edac42b1e275859330303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7c397210d9c4a1037683394ee847603e') in 0.023557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_19.png
+  artifactKey: Guid(a6a59053c6d65fe4cb4dbe9661496f78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_19.png using Guid(a6a59053c6d65fe4cb4dbe9661496f78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1abffb67fbd5c8f3ed922943f54dc057') in 0.023853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_25.png
+  artifactKey: Guid(159feea939f53a545a49db21b4fc47ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_25.png using Guid(159feea939f53a545a49db21b4fc47ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82d6a3f9a9679b43e4d3c96dbe9bc066') in 0.024676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_07.png
+  artifactKey: Guid(a0f810a5a6874df4aa82b1a30714ed2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_07.png using Guid(a0f810a5a6874df4aa82b1a30714ed2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11ebd431edee21bd7178780bb0434c7d') in 0.023435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_26.png
+  artifactKey: Guid(5b1aae894e41e0445b7d899f77f208dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_26.png using Guid(5b1aae894e41e0445b7d899f77f208dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ac579b248b94dae54d4fa115449b550') in 0.022624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_03.png
+  artifactKey: Guid(15aeb5e16cea7ca44973733b9daf7828) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_03.png using Guid(15aeb5e16cea7ca44973733b9daf7828) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '352311efa50928111dd64e2bca07888f') in 0.021060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_11.png
+  artifactKey: Guid(32f69318742ee394c8cd8e515daf1099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_11.png using Guid(32f69318742ee394c8cd8e515daf1099) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c5839e532c2935572185657860a1964') in 0.018412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_15.png
+  artifactKey: Guid(da1bdd1c71f0d6f4bbc1c88f1e77b743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_15.png using Guid(da1bdd1c71f0d6f4bbc1c88f1e77b743) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b64f2e0b7ed5d25068a06c14d5d2e85f') in 0.020210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_25.png
+  artifactKey: Guid(73871524e42a9c94ab8092db89e78fa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_25.png using Guid(73871524e42a9c94ab8092db89e78fa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3918909271ac0f1ff0759d753a69d99f') in 0.023501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_12.png
+  artifactKey: Guid(0d9a2f403d18d1f428e69ed3b4f8cce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_12.png using Guid(0d9a2f403d18d1f428e69ed3b4f8cce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5e661f9037cdee8302c9194fbbeb5758') in 0.023287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_16.png
+  artifactKey: Guid(22917487f29fa704d8a2960101e94fa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_16.png using Guid(22917487f29fa704d8a2960101e94fa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98cc2133d517e99634e06b7b75ca4b0c') in 0.022908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_49.png
+  artifactKey: Guid(2ced2b2c079d026428f6af4bdb7b8e59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_49.png using Guid(2ced2b2c079d026428f6af4bdb7b8e59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c106e1d53871b2c7bcdf14fbaff73389') in 0.020112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_09.png
+  artifactKey: Guid(2c470c3b6d0e9fa4fa7b985e6eb816ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_09.png using Guid(2c470c3b6d0e9fa4fa7b985e6eb816ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1e87c6fd9b94364190f2fdb7c5b22789') in 0.022782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_43.png
+  artifactKey: Guid(4fd3b42e50483ff42bac1b4fbe267b46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_43.png using Guid(4fd3b42e50483ff42bac1b4fbe267b46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cf3e4af2a76336c645d746df38effb8') in 0.024135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_41.png
+  artifactKey: Guid(2bc5b05fa703e3c489e1b791683c7a5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_41.png using Guid(2bc5b05fa703e3c489e1b791683c7a5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6b58eb016210597bd9fe97a7556ae88') in 0.022867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_32.png
+  artifactKey: Guid(36ce6a19dead15a409ee9a88302f6b01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_32.png using Guid(36ce6a19dead15a409ee9a88302f6b01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1baeab57aae2689665945d25eefbfd9b') in 0.021705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_18.png
+  artifactKey: Guid(44f8c983789d30540a24fd99375f86b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_18.png using Guid(44f8c983789d30540a24fd99375f86b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa82567e5cf7ef9011b47c924615aa51') in 0.025519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_04.png
+  artifactKey: Guid(e6f00416f7c285b4aa55cda4dd105656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_04.png using Guid(e6f00416f7c285b4aa55cda4dd105656) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '03431ed5c1fad9b25171f8cde3d18c74') in 0.023295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_48.png
+  artifactKey: Guid(8a3059b6a9ccb854f8e63ca758a4f542) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_48.png using Guid(8a3059b6a9ccb854f8e63ca758a4f542) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '670a8fccb5b641adf3531aa8fcdff280') in 0.024320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_35.png
+  artifactKey: Guid(caa5708825b99384387fe8198a98e99f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_35.png using Guid(caa5708825b99384387fe8198a98e99f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a6bf5182dbabdb7e7c889da9aa808ce') in 0.023556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_02.png
+  artifactKey: Guid(29b8a719d4184c44083ba5e4f6293e4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_02.png using Guid(29b8a719d4184c44083ba5e4f6293e4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd9153be632670e53138a4a913cc1277c') in 0.027309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_26.png
+  artifactKey: Guid(bf9680f53576b4847be42de2948dda53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_26.png using Guid(bf9680f53576b4847be42de2948dda53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '566e999070089cefdcb868cd8b9bbefe') in 0.023213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_42.png
+  artifactKey: Guid(9e4e09c9abb08924e8284191e3717d17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_42.png using Guid(9e4e09c9abb08924e8284191e3717d17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2eb7c79b8c1baa9c2c5a4999df89bd93') in 0.025911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_45.png
+  artifactKey: Guid(457a020116ec8d4498e22b13c9f4dded) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_45.png using Guid(457a020116ec8d4498e22b13c9f4dded) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fa87546648f9c1eba88379bc690b1f3') in 0.025639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_09.png
+  artifactKey: Guid(b1eafe8824a536a469fedb60d633d577) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_09.png using Guid(b1eafe8824a536a469fedb60d633d577) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5557f528a4dd0169283fc3e1919d6246') in 0.021232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_07.png
+  artifactKey: Guid(fab013dd29a315347a1321c790f17ad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_07.png using Guid(fab013dd29a315347a1321c790f17ad4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f401030a8aed3d855a183da0571c15e') in 0.022192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_02.png
+  artifactKey: Guid(67a1fb5eee8ea474f9be87c2b16c3e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_02.png using Guid(67a1fb5eee8ea474f9be87c2b16c3e58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed2a632f262b690a52111a82c7ed9067') in 0.020713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_16.png
+  artifactKey: Guid(4abbdf3b6a4299f4dbceae210e21e32a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_16.png using Guid(4abbdf3b6a4299f4dbceae210e21e32a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a2106375a52fc54c0e14830211b09451') in 0.024244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_46.png
+  artifactKey: Guid(39ffe18ffc5c06f4e82868ae4d6686fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_46.png using Guid(39ffe18ffc5c06f4e82868ae4d6686fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0667e98b3271deae7f58a2fc4be05d15') in 0.021043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_11.png
+  artifactKey: Guid(07cd7e9bc4aa1b246890b77877aeae8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_11.png using Guid(07cd7e9bc4aa1b246890b77877aeae8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e380d4a6c8bbe833570380c9fb9b070c') in 0.018645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_00.png
+  artifactKey: Guid(fd3a85df84be2ed4d8166d336d1c73ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_00.png using Guid(fd3a85df84be2ed4d8166d336d1c73ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bfb7ce8b667968b450e964ad6332ff9d') in 0.020619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_12.png
+  artifactKey: Guid(c1bb52b0f8d20ce4abde80d6fe971834) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Idle/Idle_12.png using Guid(c1bb52b0f8d20ce4abde80d6fe971834) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c17cd78a732255f8cfdc2ee62e700f0f') in 0.022630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_13.png
+  artifactKey: Guid(0e2551ae520dcf64592143fc97b48b9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Idle/Idle_13.png using Guid(0e2551ae520dcf64592143fc97b48b9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d608774d05434f4adcfa294424d2cea') in 0.024868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_31.png
+  artifactKey: Guid(de0356dcfee777342b296ce4f5ff6857) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Death/Death_31.png using Guid(de0356dcfee777342b296ce4f5ff6857) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a5a9eb9537ff30fa5b053c814a3304f') in 0.023548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_21.png
+  artifactKey: Guid(dacf159848e72a34db3e85eabf66c9a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_21.png using Guid(dacf159848e72a34db3e85eabf66c9a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d9940f3b6243f9feed068f63d122d9d') in 0.023501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_11.png
+  artifactKey: Guid(21e1beb15833d8a40b63177e939489f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Attack/Attack_11.png using Guid(21e1beb15833d8a40b63177e939489f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6aad60a9bb8f701ad1a193d4bb400596') in 0.023246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_12.png
+  artifactKey: Guid(e51ebc98aca153a43bd891c7e18a9de2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_12.png using Guid(e51ebc98aca153a43bd891c7e18a9de2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd925f8fdf527026aac208135c9c6a286') in 0.021957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_16.png
+  artifactKey: Guid(b4b156783e6be4345b12cd78d5cf0b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_16.png using Guid(b4b156783e6be4345b12cd78d5cf0b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29cb6778558ac245a7900099e8b554d0') in 0.024778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_03.png
+  artifactKey: Guid(0da20ec989b92af4690a3c6a4ea98cea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Attack/Attack_03.png using Guid(0da20ec989b92af4690a3c6a4ea98cea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '06c67c7728a7d9f6ad300986ea922920') in 0.024588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_13.png
+  artifactKey: Guid(6ee934ebd8eb8344eaaa9dc54b0f1d13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_13.png using Guid(6ee934ebd8eb8344eaaa9dc54b0f1d13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cf4e77a6ac7a7e8af4a4f98cfc7e44c') in 0.023497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_26.png
+  artifactKey: Guid(f103426457672c644a177b5b36b9265d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_26.png using Guid(f103426457672c644a177b5b36b9265d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce31d4fe6a63af92bcb5439e5eec57f6') in 0.021474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_12.png
+  artifactKey: Guid(d202a2d845e8729409f055ed655261e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_12.png using Guid(d202a2d845e8729409f055ed655261e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d1abd2beef1d6e13970afa9096d0d61') in 0.021610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_01.png
+  artifactKey: Guid(bf2638275dc6817488db25c35b54d518) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_01.png using Guid(bf2638275dc6817488db25c35b54d518) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df6941598a8521d260b03cc34950a156') in 0.026079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001677 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_10.png
+  artifactKey: Guid(c0c639352c7dfb84bb22696e98f77ba4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/03/Attack/Attack_10.png using Guid(c0c639352c7dfb84bb22696e98f77ba4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '427f463058f17e4df98ac702f5527961') in 0.044373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_03.png
+  artifactKey: Guid(0b0b74f8c75fd3745ba21a1f8da210ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_03.png using Guid(0b0b74f8c75fd3745ba21a1f8da210ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd28ef438422fd6907a36df14f05954e0') in 0.025683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_15.png
+  artifactKey: Guid(ce93c9d354501314a9060d091960fdb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_15.png using Guid(ce93c9d354501314a9060d091960fdb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa62938497d1fc6aaede78b10abd5e2c') in 0.023849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_22.png
+  artifactKey: Guid(6d6a9ded912491d43be802308e7b0547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/02/Death/Death_22.png using Guid(6d6a9ded912491d43be802308e7b0547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b123d84e2710cc67b5e3bf3b580ea3c6') in 0.023182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_26.png
+  artifactKey: Guid(73342824c3dac264f9b60c7cf86a18ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_26.png using Guid(73342824c3dac264f9b60c7cf86a18ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd098746df11288721ccd0948136febe4') in 0.023697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_17.png
+  artifactKey: Guid(9b76ff6eff9ade146992883294b3d89e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Attack/Attack_17.png using Guid(9b76ff6eff9ade146992883294b3d89e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e8a07113ba568a2d406a4d8f17fc457') in 0.022306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_18.png
+  artifactKey: Guid(a62dae4dd794ea343821ca5b3643319f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/01/Death/Death_18.png using Guid(a62dae4dd794ea343821ca5b3643319f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4469bc91555c472b6b759689cc063ea7') in 0.022462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_24.png
+  artifactKey: Guid(b6bac0fabb055704abf6855e2adcb4ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Hero/02/Death/Death_24.png using Guid(b6bac0fabb055704abf6855e2adcb4ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc327e0a95b737079db7fc55cba4eeaf') in 0.024675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_17.png
+  artifactKey: Guid(f23381bc05ee11545b63a90ae16906a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Walk/Walk_17.png using Guid(f23381bc05ee11545b63a90ae16906a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2387b177df5c9d85237635ee4d75fd30') in 0.021409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_49.png
+  artifactKey: Guid(5140e5305ead36540b5b297bf85cc5b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Death/Death_49.png using Guid(5140e5305ead36540b5b297bf85cc5b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '204940f27ff76990b9fa4d11f0c639b5') in 0.021447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_00.png
+  artifactKey: Guid(2d6b7b5a4be2e834e95f1e9eb7aa82bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/01/Death/Death_00.png using Guid(2d6b7b5a4be2e834e95f1e9eb7aa82bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a3c0413c81d22faeee5600bf99b842e') in 0.022762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_31.png
+  artifactKey: Guid(5af6041c8d14df9458b548d3c4b8c053) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Sprites/Enemy/03/Attack/Attack_31.png using Guid(5af6041c8d14df9458b548d3c4b8c053) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96ffb3ece951f3cf6077db9324ce6b31') in 0.022576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 27541.250219 seconds.
+  path: Assets/HyD/DF game/Arts/Animation/Hero/hero01.controller
+  artifactKey: Guid(5b22d8ce1edce394082c3ba065d4aff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/HyD/DF game/Arts/Animation/Hero/hero01.controller using Guid(5b22d8ce1edce394082c3ba065d4aff5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e15cb1583a45dfb43fa7c178f657617c') in 0.104147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.687 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.688 seconds
+Domain Reload Profiling: 4377ms
+	BeginReloadAssembly (732ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (76ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (373ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (836ms)
+		LoadAssemblies (1022ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2689ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (905ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (730ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 5.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4020 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 4504.
+Memory consumption went from 144.5 MB to 144.5 MB.
+Total: 7.447800 ms (FindLiveObjects: 0.378500 ms CreateObjectMapping: 0.173800 ms MarkObjects: 6.798600 ms  DeleteObjects: 0.095700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.539 seconds
+Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.525 seconds
+Domain Reload Profiling: 2063ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1526ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (847ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (691ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 6.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4021 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 4508.
+Memory consumption went from 146.7 MB to 146.7 MB.
+Total: 4.651100 ms (FindLiveObjects: 0.374700 ms CreateObjectMapping: 0.316200 ms MarkObjects: 3.857600 ms  DeleteObjects: 0.100700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

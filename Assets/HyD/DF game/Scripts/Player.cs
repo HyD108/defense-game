@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 
 namespace HyD
 {
-    public class Player : MonoBehaviour
+    public class Player : MonoBehaviour , IConponentChecking
     {
         public float AtkRate;
         private Animator m_anim;
         private float m_curAtkRate;
         private bool m_isAttacked;
+        private bool m_isDead;
         private void Awake()
         {
             m_anim = GetComponent<Animator>();
@@ -20,14 +22,18 @@ namespace HyD
         {
 
         }
+        public bool IsComponentsNull()
+        {
+            return m_anim == null;
+        }
 
         // Update is called once per frame
         void Update()
         {
+            if(IsComponentsNull()) return;
             if (Input.GetMouseButtonDown(0) && !m_isAttacked)
             {
-                if (m_anim)
-                    m_anim.SetBool(Const.ATTACK_ANIM, true);
+                m_anim.SetBool(Const.ATTACK_ANIM, true);
                 m_isAttacked = true;
             }
             if (m_isAttacked)
@@ -46,7 +52,18 @@ namespace HyD
         {
             if (m_anim)
             {
+                if (IsComponentsNull()) return;
+
                 m_anim.SetBool(Const.ATTACK_ANIM, false);
+            }
+        }
+        private void OnTriggerEnter2D(Collider2D col)
+        {
+            if (IsComponentsNull()) return;
+            if (col.CompareTag(Const.ENEMY_WEAPON_TAG) && !m_isDead)
+            {
+                m_anim.SetTrigger(Const.DEATH_ANIM);
+                m_isDead = true;
             }
         }
     }

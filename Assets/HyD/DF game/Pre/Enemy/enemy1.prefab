@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1679519702083515027}
   m_Layer: 0
   m_Name: Weapon
-  m_TagString: Untagged
+  m_TagString: enemy wp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 5191151912194335587}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.15, y: -0.91, z: 0}
+  m_LocalPosition: {x: -0.32, y: -0.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -108,6 +108,7 @@ GameObject:
   - component: {fileID: 6944486381998104870}
   - component: {fileID: -2118154329072870258}
   - component: {fileID: -2812873488958048908}
+  - component: {fileID: 7466088742537357016}
   m_Layer: 0
   m_Name: enemy1
   m_TagString: Untagged
@@ -147,7 +148,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
+  m_RayTraceProcedural: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -276,3 +277,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.39102733, y: 2.7867541}
   m_EdgeRadius: 0
+--- !u!114 &7466088742537357016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7686381273610335654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79921d18ceca48649ad6eecea609777f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  atkDistance: 1

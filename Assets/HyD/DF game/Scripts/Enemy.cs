@@ -36,11 +36,10 @@ namespace HyD
         void Update()
         {
             if (IsComponentsNull()) return;
-            if (m_rb)
-            {
-                m_rb.velocity = new Vector2(-speed, m_rb.velocity.y);
-            }
-            if(Vector2.Distance(m_player.transform.position, transform.position) <= atkDistance) 
+
+            float DisToPlayer = Vector2.Distance(m_player.transform.position, transform.position);
+
+            if (DisToPlayer <= atkDistance) 
             {           
                     m_anim.SetBool(Const.ATTACK_ANIM, true);
                 m_rb.velocity = Vector2.zero;
@@ -49,6 +48,14 @@ namespace HyD
                     
                 m_rb.velocity = new Vector2(-speed, m_rb.velocity.y);
 
+        }
+        public void Die()
+        {
+            if(IsComponentsNull()) return;
+
+            m_anim.SetTrigger(Const.DEATH_ANIM);
+            m_rb.velocity = Vector2.zero;
+            gameObject.layer = LayerMask.NameToLayer(Const.DEATH_LAYER);
         }
     }
 

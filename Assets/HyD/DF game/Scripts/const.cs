@@ -11,7 +11,7 @@ using UnityEngine;
         public const string ENEMY_WEAPON_TAG = "enemy wp";
 
         public const string ATTACK_ANIM = "Attacking";
-        public const string DEATH_ANIM = "Death";
+        public const string DEATH_ANIM = "death";
 
         public const string DEATH_LAYER = "Death";
 
